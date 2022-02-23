@@ -5,6 +5,7 @@ main {
 #navText{
   color: #1d804d;
   font-family: 'Russo One', sans-serif;
+  font-size: x-large;
 }
 
 .footer {
@@ -14,5 +15,10 @@ main {
 
 h1 {
  font-family: 'Russo One', sans-serif;
+}
+
+.carousel p {
+  color: #fff;
+  font-family: 'Russo One', sans-serif;
 }
 
