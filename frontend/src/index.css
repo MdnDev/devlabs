@@ -1,0 +1,13 @@
+main {
+  min-height: 80vh;
+}
+
+#navText{
+  color: #1d804d;
+  font-family: 'Russo One', sans-serif;
+}
+
+.footer {
+  background-color: #eefff4;
+  font-family: 'Russo One', sans-serif;
+}
