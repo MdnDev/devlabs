@@ -15,9 +15,11 @@ const Header = () => {
                         />
                 </Navbar.Brand>
                 <Nav className="me-auto">
-                <Nav.Link id="navText" href="#home">Home</Nav.Link>
-                <Nav.Link id="navText" href="#features">Features</Nav.Link>
-                <Nav.Link id="navText" href="#pricing">Pricing</Nav.Link>
+                <Nav.Link id="navText" href="#home">Accueil</Nav.Link>
+                <Nav.Link id="navText" href="#features">Services</Nav.Link>
+                <Nav.Link id="navText" href="#pricing">Tarifs</Nav.Link>
+                <Nav.Link id="navText" href="#pricing">Contact</Nav.Link>
+                <Nav.Link id="navText" href="#pricing">Blog</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
