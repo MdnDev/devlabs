@@ -18,7 +18,7 @@ main {
   font-family: 'Russo One', sans-serif;
 }
 
-h1 {
+h1, h4 {
  font-family: 'Russo One', sans-serif;
  text-align: center;
 }
@@ -26,5 +26,17 @@ h1 {
 .carousel p {
   
   font-family: 'Russo One', sans-serif;
+}
+
+.myIcon {
+  font-size: x-large;
+}
+
+.cross {
+  color: red;
+}
+
+.check {
+  color: rgba(53, 216, 53, 0.856);
 }
 

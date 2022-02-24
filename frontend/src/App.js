@@ -7,6 +7,7 @@ import ServiceScreen from "./screens/ServiceScreen";
 import PricingScreen from "./screens/PricingScreen";
 import ContactScreen from "./screens/ContactScreen";
 import BlogScreen from "./screens/BlogScreen";
+import Portfolio from "./screens/Portfolio";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path='/' element={<HomeScreen />} />
             <Route path='/services' element={<ServiceScreen />} />
+            <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/pricing' element={<PricingScreen />} />
             <Route path='/contact' element={<ContactScreen />} />
             <Route path='/blog' element={<BlogScreen />} />

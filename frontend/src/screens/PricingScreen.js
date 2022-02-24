@@ -3,99 +3,99 @@ import { Container, Card, Row, Col } from 'react-bootstrap'
 
 const PricingScreen = () => {
   return (
-    <Container>
-      <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
-        <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-          <Card style={{ width: '18rem' }}>
+    <Container style={{border: '1px solid blue'}}>
+      <h1>Tarifs & Plans</h1>
+      <Row className="my-3" style={{textAlign: 'center', border: '1px solid blue'}}>
+        <Col xs={12} sm={12} md={12} lg={3} xl={3}>
+          <Card className="mt-5" style={{ width: '18rem', border: '1px solid red' }}>
+            <Card.Header style={{backgroundColor: '#eefff4'}}><h4>Economique</h4></Card.Header>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title><h4>~ 2000-3000€</h4></Card.Title>
               <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
-
-        <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-          <Card style={{ width: '18rem' }}>
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
-        <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-          <Card style={{ width: '18rem' }}>
+        <Col xs={12} sm={12} md={12} lg={3} xl={3}>
+          <Card className="mt-4" style={{ width: '18rem' }}>
+            <Card.Header className="py-5" style={{backgroundColor: '#eefff4'}}><h4>Prenium</h4></Card.Header>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title><h4>~ 8000-10000€</h4></Card.Title>
               <Card.Text>
-                Something
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-1"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-xmark myIcon cross mx-2"></i> Something
               </Card.Text>
             </Card.Body>
 
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
+            
+          </Card>
+        </Col>
 
+        <Col xs={12} sm={12} md={12} lg={3} xl={3}>
+          <Card className="mt-5" style={{ width: '18rem' }}>
+            <Card.Header style={{backgroundColor: '#eefff4'}}>
+              <h4>Elite</h4>
+              </Card.Header>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title><h4>~ 12000-15000€</h4></Card.Title>
               <Card.Text>
-                Something
-              </Card.Text>
-            </Card.Body>
-
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Something
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
+              <br/>
+              <i className="fa-solid fa-check myIcon check mx-2"></i> Something
               </Card.Text>
             </Card.Body>
           </Card>
