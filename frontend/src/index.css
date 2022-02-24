@@ -1,11 +1,16 @@
+
 main {
   min-height: 80vh;
 }
 
-#navText{
+.Nav_link{
   color: #1d804d;
   font-family: 'Russo One', sans-serif;
   font-size: x-large;
+  text-decoration: none;
+}
+.Nav_link {
+  padding: 20px;
 }
 
 .footer {
@@ -15,10 +20,11 @@ main {
 
 h1 {
  font-family: 'Russo One', sans-serif;
+ text-align: center;
 }
 
 .carousel p {
-  color: #fff;
+  
   font-family: 'Russo One', sans-serif;
 }
 

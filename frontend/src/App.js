@@ -3,6 +3,10 @@ import { Container } from 'react-bootstrap'
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HomeScreen from "./screens/HomeScreen";
+import ServiceScreen from "./screens/ServiceScreen";
+import PricingScreen from "./screens/PricingScreen";
+import ContactScreen from "./screens/ContactScreen";
+import BlogScreen from "./screens/BlogScreen";
 
 
 function App() {
@@ -13,6 +17,10 @@ function App() {
         <Container>
           <Routes>
             <Route path='/' element={<HomeScreen />} />
+            <Route path='/services' element={<ServiceScreen />} />
+            <Route path='/pricing' element={<PricingScreen />} />
+            <Route path='/contact' element={<ContactScreen />} />
+            <Route path='/blog' element={<BlogScreen />} />
           </Routes>
         </Container>
       </main>
