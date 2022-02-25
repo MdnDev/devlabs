@@ -33,8 +33,8 @@ const HomeScreen = () => {
         {/* END OF SECOND SECTION */}
 
         {/* SERVICES SECTION */}
-        <Row className="my-3">
-          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/collab.svg' />
               <Card.Body>
@@ -48,7 +48,7 @@ const HomeScreen = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/personalsettings.svg' />
               <Card.Body>
@@ -62,7 +62,7 @@ const HomeScreen = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/onlinepayments.svg' />
               <Card.Body>
@@ -76,7 +76,7 @@ const HomeScreen = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/pride.svg' />
               <Card.Body>
@@ -91,7 +91,7 @@ const HomeScreen = () => {
           </Col>
         </Row>
         <Row xs="12" sm="12" md="8" lg="6" xl="6">
-          <Button className="btn btn-success m-3">Voir les services</Button>
+          <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}} className="btn m-3">Voir les services</Button>
         </Row>
         {/* END OF SERVICES SECTION */}
 
