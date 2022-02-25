@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Row, Image, Container } from 'react-bootstrap'
+import { Button, Col, Row, Image, Card, Container } from 'react-bootstrap'
 import ClientCarousel from '../components/ClientCarousel'
 import Service from '../components/Service'
 
@@ -14,20 +14,20 @@ const ServiceScreen = () => {
         </Row>
         <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-                <Service style={{ width: '100%'}}/>
+              <Image style={{width: '10rem'}} src="../../images/webdev.png"/>
             </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Service style={{ width: '100%'}}/>
-          </Col>
+            <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+              <Image style={{width: '10rem'}} src="../../images/webdev.png"/>
+            </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Service style={{ width: '100%'}}/>
-          </Col>
+            <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+              <Image style={{width: '10rem'}} src="../../images/webdev.png"/>
+            </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Service style={{ width: '100%'}}/>
-          </Col>
+            <Col xs={12} sm={12} md={6} lg={4} xl={3}>
+              <Image style={{width: '10rem'}} src="../../images/webdev.png"/>
+            </Col>
         </Row>
         <Row xs="12" sm="12" md="8" lg="6" xl="6">
           <Button className="btn btn-success m-3">Voir les services</Button>

@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button, Col, Row, Image, Container } from 'react-bootstrap'
+import { Button, Col, Row, Image, Card, Container } from 'react-bootstrap'
 import ClientCarousel from '../components/ClientCarousel'
+import CustomButton from '../components/CustomButton'
 import Service from '../components/Service'
 
 const HomeScreen = () => {
@@ -34,19 +35,59 @@ const HomeScreen = () => {
         {/* SERVICES SECTION */}
         <Row className="my-3">
           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
-            <Service style={{ width: '100%'}}/>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src='../../images/collab.svg' />
+              <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  </Card.Text>
+                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+              </Card.Body>
+            </Card>
           </Col>
 
           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
-            <Service style={{ width: '100%'}}/>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src='../../images/personalsettings.svg' />
+              <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  </Card.Text>
+                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+              </Card.Body>
+            </Card>
           </Col>
 
           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
-            <Service style={{ width: '100%'}}/>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src='../../images/onlinepayments.svg' />
+              <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  </Card.Text>
+                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+              </Card.Body>
+            </Card>
           </Col>
 
           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
-            <Service style={{ width: '100%'}}/>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src='../../images/pride.svg' />
+              <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                  </Card.Text>
+                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}} >Go somewhere</Button>
+              </Card.Body>
+            </Card>
           </Col>
         </Row>
         <Row xs="12" sm="12" md="8" lg="6" xl="6">
