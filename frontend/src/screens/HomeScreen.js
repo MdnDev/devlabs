@@ -7,8 +7,8 @@ import Service from '../components/Service'
 const HomeScreen = () => {
   return (
 
-    <Container className="my-5" style={{border: '1px solid black'}}>
-      <Row className="my-5" style={{border: '2px dotted red'}}>
+    <Container className="my-5" >
+      <Row  style={{border: '2px dotted red'}}>
         <Row xs="12" sm="12" md="12" lg="12" xl="12">
           <h1>Design et développement d'application web</h1>
           <br/>
@@ -33,9 +33,9 @@ const HomeScreen = () => {
         {/* END OF SECOND SECTION */}
 
         {/* SERVICES SECTION */}
-        <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
+        <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12" >
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/collab.svg' />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -49,7 +49,7 @@ const HomeScreen = () => {
           </Col>
 
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/personalsettings.svg' />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -63,7 +63,7 @@ const HomeScreen = () => {
           </Col>
 
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/onlinepayments.svg' />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -77,7 +77,7 @@ const HomeScreen = () => {
           </Col>
 
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/pride.svg' />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -96,7 +96,7 @@ const HomeScreen = () => {
         {/* END OF SERVICES SECTION */}
 
         {/* TESTIMONIALS SECTION */}
-        <Row className="my-5" style={{border: '2px dotted red'}}>
+        <Row className="py-5" style={{ backgroundColor: '#eefff4'}}>
           <Row xs="12" sm="12" md="12" lg="12" xl="12">
             <h1>Ils m'ont fait confiance</h1>
             <br/>

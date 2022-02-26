@@ -15,7 +15,7 @@ const ServiceScreen = () => {
         <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src='../../images/webdev.png' className="mx-auto" style={{ width: '8rem' }} />
+              <Card.Img variant="top" src='../../images/webdev.png' className="mx-auto my-3" style={{ width: '8rem' }} />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
@@ -29,7 +29,7 @@ const ServiceScreen = () => {
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/email.png' className="mx-auto" style={{ width: '8rem' }} />
+                <Card.Img variant="top" src='../../images/email.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -43,7 +43,7 @@ const ServiceScreen = () => {
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/branding.png' className="mx-auto" style={{ width: '8rem' }} />
+                <Card.Img variant="top" src='../../images/branding.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -57,7 +57,7 @@ const ServiceScreen = () => {
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/seo.png' className="mx-auto" style={{ width: '8rem' }} />
+                <Card.Img variant="top" src='../../images/seo.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -81,7 +81,7 @@ const ServiceScreen = () => {
         <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src='../../images/html5.png' className="mx-auto" style={{ width: '8rem' }} />
+              <Card.Img variant="top" src='../../images/html5.png' className="mx-auto my-3" style={{ width: '8rem' }} />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
                   <Card.Text>
@@ -95,7 +95,7 @@ const ServiceScreen = () => {
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/css3.png' className="mx-auto" style={{ width: '8rem' }} />
+                <Card.Img variant="top" src='../../images/css3.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
@@ -109,7 +109,7 @@ const ServiceScreen = () => {
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/react.png' className="mx-auto" style={{ width: '8rem' }} />
+                <Card.Img variant="top" src='../../images/react.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>

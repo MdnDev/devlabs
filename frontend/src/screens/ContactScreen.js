@@ -6,10 +6,10 @@ const ContactScreen = () => {
   return (
     <Container >
             <Row className="contactArtist my-5">
-              <Col style={{border: '1px solid blue'}}>
-                <Image src="../../images/logo.png" style={{height: '20rem', borderRadius: '50%'}}/>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} style={{border: '1px solid blue', textAlign: 'center'}}>
+                <Image className="image" src="../../images/logo.png" style={{height: '20rem', borderRadius: '50%'}}/>
               </Col>
-              <Col style={{border: '1px solid red'}}>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} style={{border: '1px solid red'}}>
                 <div className="my-3">
                 <h1>Wilfried Maudon</h1>
                 <h6>devlabs@outlook.fr</h6>
