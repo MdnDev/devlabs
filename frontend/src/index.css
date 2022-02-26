@@ -18,9 +18,10 @@ main {
   font-family: 'Russo One', sans-serif;
 }
 
-h1, h4 {
+h1, h2, h3, h4, h5, h6 {
  font-family: 'Russo One', sans-serif;
  text-align: center;
+ color: #1d804d;
 }
 
 .carousel p {

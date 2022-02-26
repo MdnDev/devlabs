@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container, Card, Col, Row, Button } from 'react-bootstrap'
+import { Container, Card, Col, Row } from 'react-bootstrap'
 
 const Portfolio = () => {
   return (
     <Container>
-        <h1 className='py-5'>Mes Projets</h1>
+        <h1 className='py-3'>Quelques projets</h1>
         <Row>
             <Col className="my-3" xs={12} sm={12} md={6} lg={3} xl={3}>
                 <Card style={{ width: '18rem' }}>

@@ -6,10 +6,10 @@ const ContactScreen = () => {
   return (
     <Container >
             <Row className="contactArtist my-5">
-              <Col xs={12} sm={12} md={12} lg={6} xl={6} style={{border: '1px solid blue', textAlign: 'center'}}>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6} style={{textAlign: 'center'}}>
                 <Image className="image" src="../../images/logo.png" style={{height: '20rem', borderRadius: '50%'}}/>
               </Col>
-              <Col xs={12} sm={12} md={12} lg={6} xl={6} style={{border: '1px solid red'}}>
+              <Col xs={12} sm={12} md={12} lg={6} xl={6}>
                 <div className="my-3">
                 <h1>Wilfried Maudon</h1>
                 <h6>devlabs@outlook.fr</h6>
@@ -24,7 +24,7 @@ const ContactScreen = () => {
                 </Col>
              </Row>
 
-            <section >
+            <section className='py-5'>
             <h5>Pour me contacter, veuillez remplir le formulaire ci-dessous:</h5>
             <Form action="https://formsubmit.co/wilfried.maudonpro@gmail.com" method="POST">
                 <Row>
