@@ -1,16 +1,21 @@
 import React from 'react'
-import { Container, Image, Form, Button, Row, Col } from 'react-bootstrap';
+import { Container, Image, Form, Button, Row, Col, Badge } from 'react-bootstrap';
 import Message from '../components/Message';
 
 const ContactScreen = () => {
   return (
     <Container >
             <Row className="contactArtist my-5">
-              <Col xs={12} sm={12} md={12} lg={6} xl={6} style={{textAlign: 'center'}}>
-                <Image className="image" src="../../images/logo.png" style={{height: '20rem', borderRadius: '50%'}}/>
+              <Col xs={12} sm={12} md={12} lg={3} xl={3} style={{textAlign: 'center'}}>
+                <Row>
+                  <Image className="image" src="../../images/logo.png" style={{height: '20rem', borderRadius: '50%'}}/>
+                </Row>
+                <Row className="mt-4">
+                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Github</Button>
+                  </Row>
               </Col>
-              <Col xs={12} sm={12} md={12} lg={6} xl={6}>
-                <div className="my-3">
+              <Col xs={12} sm={12} md={12} lg={9} xl={9}>
+                <div className="my-3" style={{textAlign: 'center'}}>
                 <h1>Wilfried Maudon</h1>
                 <h6>devlabs@outlook.fr</h6>
                 <p className="my-3" style={{textAlign: 'justify' }}>
@@ -20,9 +25,34 @@ const ContactScreen = () => {
                   C'est en alliant ce rapport à l'écriture et à l'image qu'il en vient à faire ses débuts dans le cinéma avec un film primétravers le monde. 
                   Les photos présentées sur ce site sont les premières saisies par ce jeune photographe.
                 </p>
+                <h3 className="py-4">Technologies que j'utilise</h3>
+                  <Badge pill bg="primary">
+                    HTML5
+                  </Badge>{' '}
+                  <Badge pill bg="secondary">
+                    CSS3
+                  </Badge>{' '}
+                  <Badge pill bg="success">
+                    Javascript
+                  </Badge>{' '}
+                  <Badge pill bg="danger">
+                    React
+                  </Badge>{' '}
+                  <Badge pill bg="warning" text="dark">
+                    Node.js
+                  </Badge>{' '}
+                  <Badge pill bg="info">
+                    Redux
+                  </Badge>{' '}
+                  <Badge pill bg="light" text="dark">
+                    Express.js
+                  </Badge>{' '}
+                  <Badge pill bg="dark">
+                    MongoDB
+                  </Badge>
                 </div>
-                </Col>
-             </Row>
+              </Col>
+            </Row>
 
             <section className='py-5'>
             <h5>Pour me contacter, veuillez remplir le formulaire ci-dessous:</h5>
