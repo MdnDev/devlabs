@@ -1,29 +1,27 @@
 import React from 'react'
 import { Button, Col, Row, Image, Card, Container } from 'react-bootstrap'
-import ClientCarousel from '../components/ClientCarousel'
-import CustomButton from '../components/CustomButton'
-import Service from '../components/Service'
+import HomeCarousel from '../components/HomeCarousel'
+
 
 const HomeScreen = () => {
   return (
 
     <Container className="my-5" >
-      <Row  style={{border: '2px dotted red'}}>
+      <Row >
         <Row xs="12" sm="12" md="12" lg="12" xl="12">
           <h1>Design et développement d'application web</h1>
           <br/>
-          <h6>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</h6>
+          <h5>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</h5>
+          <HomeCarousel />
+            
         </Row>
-        <Row xs="12" sm="12" md="12" lg="12" xl="12">
-          <Col>
-            <Button className="btn btn-success m-3">Quote</Button>
-            <Button className="btn btn-success m-3">Quote</Button>
-          </Col>
-        </Row>
+        <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
+            <Button className="btn btn-success mx-0">CTA Position</Button>
+        </Container>
       </Row>
 
         {/* SECOND SECTION */}
-        <Row className="my-5" style={{border: '2px dotted red'}}>
+        <Row className="my-5" >
           <Row xs="12" sm="12" md="12" lg="12" xl="12">
             <h1>Je conçois et développe sites à application pour votre orgaisation</h1>
             <br/>
@@ -90,9 +88,9 @@ const HomeScreen = () => {
             </Card>
           </Col>
         </Row>
-        <Row xs="12" sm="12" md="8" lg="6" xl="6">
-          <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}} className="btn m-3">Voir les services</Button>
-        </Row>
+        <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
+            <Button className="btn btn-success mx-0 my-4">Voir les services</Button>
+        </Container>
         {/* END OF SERVICES SECTION */}
 
         {/* TESTIMONIALS SECTION */}
