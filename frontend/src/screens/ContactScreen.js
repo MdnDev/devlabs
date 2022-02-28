@@ -26,30 +26,32 @@ const ContactScreen = () => {
                   Les photos présentées sur ce site sont les premières saisies par ce jeune photographe.
                 </p>
                 <h3 className="my-5">Technologies que j'utilise</h3>
-                  <Badge pill bg="primary">
+                  <Badge bg="primary">
                     HTML5
                   </Badge>{' '}
-                  <Badge pill bg="secondary">
+                  <Badge bg="secondary">
                     CSS3
                   </Badge>{' '}
-                  <Badge pill bg="success">
+                  <Badge bg="success">
                     Javascript
                   </Badge>{' '}
-                  <Badge pill bg="danger">
+                  <Badge bg="danger">
                     React
                   </Badge>{' '}
-                  <Badge pill bg="warning" text="dark">
+                  <Badge bg="warning" text="dark">
                     Node.js
                   </Badge>{' '}
-                  <Badge pill bg="info">
+                  <Badge bg="info">
                     Redux
                   </Badge>{' '}
-                  <Badge pill bg="light" text="dark">
+                  <Badge bg="light" text="dark">
                     Express.js
                   </Badge>{' '}
-                  <Badge pill bg="dark">
+                  <Badge bg="dark">
                     MongoDB
                   </Badge>
+
+                  
                 </div>
               </Col>
             </Row>

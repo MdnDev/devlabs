@@ -5,7 +5,7 @@ main {
 
 .Nav_link{
   color: #1d804d;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-size: x-large;
   text-decoration: none;
 }
@@ -15,18 +15,18 @@ main {
 
 .footer {
   background-color: #eefff4;
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Cinzel'
 }
 
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Russo One', sans-serif;
+ font-family: 'Cinzel';
  text-align: center;
  color: #1d804d;
 }
 
 .carousel p {
   
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Cinzel', sans-serif;
 }
 
 .myIcon {
@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 .button {
   background-color: #1d804d;
 }
+
 
 
 
