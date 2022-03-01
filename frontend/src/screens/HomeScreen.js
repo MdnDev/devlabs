@@ -9,23 +9,23 @@ const HomeScreen = () => {
     <Container className="my-5" >
       <Row >
         <Row xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1>Design et développement d'application web</h1>
+          <h1>Design et développement de sites & d'application web</h1>
           <br/>
-          <h5>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</h5>
+          <h5>En tant que dévoloppeur fullstack, j'apporte la solution pour apporter le plus de visibilité à votre activité </h5>
           <HomeCarousel />
             
         </Row>
         <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
-            <Button className="btn btn-success mx-0">CTA Position</Button>
+            <Button className="btn btn-success mx-0">Me contacter</Button>
         </Container>
       </Row>
 
         {/* SECOND SECTION */}
         <Row className="my-5" >
           <Row xs="12" sm="12" md="12" lg="12" xl="12">
-            <h1>Je conçois et développe sites à application pour votre orgaisation</h1>
+            <h1>Mon approche pour developper votre site personnel</h1>
             <br/>
-            <h6>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500</h6>
+            <h5>Du design au développment, ainsi que dans la durée, je vous accompagne dans votre projet</h5>
           </Row>
         </Row>
         {/* END OF SECOND SECTION */}
@@ -36,10 +36,10 @@ const HomeScreen = () => {
             <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/collab.svg' />
               <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Communication</Card.Title>
                   <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  Du début à la fin, je travaille avec vous.
+                  Mon but est de comprendre tout de votre activité, votre mission
                   </Card.Text>
                   <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
               </Card.Body>
@@ -50,10 +50,9 @@ const HomeScreen = () => {
             <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/personalsettings.svg' />
               <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Un site personalisé</Card.Title>
                   <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  Je prends en compte toutes vos envie et idées. Je vous guide ensuite pour arriver à un résultat optimal pour vous et vos clients.
                   </Card.Text>
                   <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
               </Card.Body>
@@ -78,10 +77,9 @@ const HomeScreen = () => {
             <Card style={{ width: '18rem'}}>
               <Card.Img variant="top" src='../../images/pride.svg' />
               <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Votre satisfaction est primodiale</Card.Title>
                   <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                   Mon but est de vous développer un site que vous prendrez plaisir a présenter, ainsi qu'a utliser comme outil pour votre activité.
                   </Card.Text>
                   <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}} >Go somewhere</Button>
               </Card.Body>
@@ -143,6 +141,9 @@ const HomeScreen = () => {
                 </p>
             </Row>
            </Col>
+           <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
+            <Button className="btn btn-success mx-0">Me contacter</Button>
+        </Container>
         </Row>
 
         </Row>

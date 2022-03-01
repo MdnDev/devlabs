@@ -8,45 +8,30 @@ const ServiceScreen = () => {
         <Row xs="12" sm="12" md="12" lg="12" xl="12">
           <h1>Design </h1>
           <br/>
-          <h4>Lorem Ipsum est simplement du faux texte</h4>
+          <h4>Blog, Ecommerce ou Portfolio, Je suis là pour vous.</h4>
         </Row>
         <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
           <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/webdev.png' className="mx-auto my-3" style={{ width: '8rem' }} />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Developpement</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  Je dévevoppe votre site de manière à ce que vous ayez le moins possible a gérer, et vous concentrer uniquement sur votre activité.
                 </Card.Text>
                 <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
               </Card.Body>
             </Card>
           </Col>
 
-            <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-              <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/email.png' className="mx-auto my-3" style={{ width: '8rem' }} />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
-                    </Card.Text>
-                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
-                </Card.Body>
-              </Card>
-            </Col>
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/branding.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Design stratégique</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                      Je prends en comtpe toutes vos idées, vos souhaits, vos objectifs, et met en place une stratégie de design pour obtenir le meilleur résulat.
                     </Card.Text>
                     <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
                 </Card.Body>
@@ -57,10 +42,9 @@ const ServiceScreen = () => {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/seo.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Service SEO</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                      J'apporte à votres site les outils nécessaires pour augmenter sa visibilité et position sur les moteurs de recherche.
                     </Card.Text>
                     <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
                 </Card.Body>
@@ -72,16 +56,16 @@ const ServiceScreen = () => {
         {/* SECOND SECTION */}
         <Row className="my-5" >
         <Row xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1>Dévelopment </h1>
+          <h1>Quelques technologies que j'utilise</h1>
           <br/>
-          <h4>Lorem Ipsum est simplement du faux texte</h4>
+          <h4>Du côté client au côté serveur, ces outils m'apportent les meilleurs résultats</h4>
         </Row>
         <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12">
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/html5.png' className="mx-auto my-3" style={{ width: '8rem' }} />
               <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>HTML</Card.Title>
                   <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
@@ -95,7 +79,7 @@ const ServiceScreen = () => {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/css3.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>CSS</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -109,7 +93,7 @@ const ServiceScreen = () => {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/react.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>REACT</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
@@ -123,10 +107,9 @@ const ServiceScreen = () => {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/database.png' className="mx-auto my-3" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>MONGODB</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                      MongoDB me permet d'établir une base de donnée de manière simple et efficace. Cela permet a votre site/application de de lire et modifier les donnés selon vos besoins.
                     </Card.Text>
                     <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
                 </Card.Body>
@@ -139,7 +122,7 @@ const ServiceScreen = () => {
         {/* THIRD SECTION */}
         <Row className="my-5">
           <Row xs="12" sm="12" md="12" lg="12" xl="12">
-            <h1>Autres Services </h1>
+            <h1>Services Additionels</h1>
             <br/>
             <h4>Lorem Ipsum est simplement du faux texte</h4>
           </Row>
@@ -148,26 +131,24 @@ const ServiceScreen = () => {
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src='../../images/shopify.png' className="mx-auto" style={{ width: '8rem' }} />
               <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Shopify</Card.Title>
                   <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  Je développe votre store shopify avec un thème personalisé pour plus de ventes.
                   </Card.Text>
-                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>En savoir plus</Button>
               </Card.Body>
             </Card>
             </Col>
 
             <Col xs={12} sm={12} md={6} lg={4} xl={3}>
               <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src='../../images/wordpress.png' className="mx-auto" style={{ width: '8rem' }} />
+                <Card.Img variant="top" src='../../images/email.png' className="mx-auto" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Email Marketing</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                      Je peux gérér vos newsletter et autres campagne marketing que souhaitez développer par Mail pour accroître votre visibilité.
                     </Card.Text>
-                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>En savoir plus</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -176,12 +157,11 @@ const ServiceScreen = () => {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/blog.png' className="mx-auto" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Articles blogs</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Je m'occupe d'alimenter votre blog avec les thèmes que vous souhaitez voir abordés sur votre site, pour encore plus d'engagement avec vos clients.
                     </Card.Text>
-                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>En savoir plus</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -190,12 +170,11 @@ const ServiceScreen = () => {
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src='../../images/media.png' className="mx-auto" style={{ width: '8rem' }} />
                 <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Service SEO</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Je gère vos divers comptes professionels pour accroître l'engagement avec clients et potentiels clients.
                     </Card.Text>
-                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>En savoir plus</Button>
                 </Card.Body>
               </Card>
             </Col>
