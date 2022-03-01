@@ -67,8 +67,7 @@ const ServiceScreen = () => {
               <Card.Body>
                   <Card.Title>HTML</Card.Title>
                   <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
+                  HTML est la structure de votre site. Le développement commence par HTML. Avec ceci, je fais également en sorte que votre site soit accessibles a tout types de publique, y compris ceux ayant un handicap.
                   </Card.Text>
                   <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
               </Card.Body>
@@ -81,8 +80,7 @@ const ServiceScreen = () => {
                 <Card.Body>
                     <Card.Title>CSS</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    CSS est l'esthetique de votre site. CSS me permet d'apporter a votre site la touche qui rendra agréable la visite de vos clients et potentiels clients sur votre site peut importe la taille de leur écran. Ceci est primordial pour l'experience du visiteur.
                     </Card.Text>
                     <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
                 </Card.Body>
@@ -95,8 +93,7 @@ const ServiceScreen = () => {
                 <Card.Body>
                     <Card.Title>REACT</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    REACT est une librarie Javascript, me permettant d'ajouter de l'interactivté a votre site de manière rapide et efficace. Toute informations mise à jour (panier, like, commentaire), ne nécessite pqs un rafraichissment de la page.
                     </Card.Text>
                     <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
                 </Card.Body>

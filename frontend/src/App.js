@@ -8,6 +8,7 @@ import PricingScreen from "./screens/PricingScreen";
 import ContactScreen from "./screens/ContactScreen";
 import BlogScreen from "./screens/BlogScreen";
 import Portfolio from "./screens/Portfolio";
+import ArticleScreen from "./screens/ArticleScreen";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path='/pricing' element={<PricingScreen />} />
             <Route path='/contact' element={<ContactScreen />} />
             <Route path='/blog' element={<BlogScreen />} />
+            <Route path='/article' element={<ArticleScreen />} />
           </Routes>
         </Container>
       </main>

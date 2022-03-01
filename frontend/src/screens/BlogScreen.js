@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Card, Col, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import SlideNav from '../components/SlideNav';
 
 const BlogScreen = () => {
@@ -22,7 +23,7 @@ const BlogScreen = () => {
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
             </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
+            <Link to='/article'>Lire l'article</Link>
           </Card.Body>
         </Card>
         </Col>
