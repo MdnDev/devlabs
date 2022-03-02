@@ -31,9 +31,9 @@ const HomeScreen = () => {
         {/* END OF SECOND SECTION */}
 
         {/* SERVICES SECTION */}
-        <Row className="my-3" xs="12" sm="12" md="12" lg="12" xl="12" >
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem'}}>
+        <Col className="my-3" style={{textAlign: 'center', border: '1px solid red'}}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+            <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/collab.svg' />
               <Card.Body>
                   <Card.Title>Communication</Card.Title>
@@ -46,8 +46,8 @@ const HomeScreen = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem'}}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+            <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/personalsettings.svg' />
               <Card.Body>
                   <Card.Title>Un site personalisé</Card.Title>
@@ -59,8 +59,8 @@ const HomeScreen = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem'}}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+            <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/onlinepayments.svg' />
               <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -73,8 +73,8 @@ const HomeScreen = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={4} xl={3}>
-            <Card style={{ width: '18rem'}}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+            <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/pride.svg' />
               <Card.Body>
                   <Card.Title>Votre satisfaction est primodiale</Card.Title>
@@ -85,7 +85,8 @@ const HomeScreen = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
+        </Col>
+
         <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
             <Button className="btn btn-success mx-0 my-4">Voir les services</Button>
         </Container>
@@ -99,49 +100,45 @@ const HomeScreen = () => {
           </Row>
 
           <Row className="my-3">
-           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+           <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-                    
-                    <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/JN.png" alt="alt" fluid/>
-                    <h6 >Jean-Noël Vireeye, Photographe & Réalisteur</h6>
-            
-                
+              <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/JN.png" alt="alt" fluid/>
+              <h6 >Jean-Noël Vireeye, Photographe & Réalisteur</h6>
             </Row>
+
             <Row>
                 <p className='aboutParagraph py-4 '>
                 "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.".
                 </p>
             </Row>
            </Col>
-           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+           <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-                    
-                    <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/Laurie2.jpg" alt="alt" fluid/>
-                    <h6 >Laurie Doinel, Gérante de glacerie</h6>
-            
-                
+              <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/Laurie2.jpg" alt="alt" fluid/>
+              <h6 >Laurie Doinel, Gérante de glacerie</h6>
             </Row>
+
             <Row>
-                <p className='aboutParagraph py-4 '>
+              <p className='aboutParagraph py-4 '>
                 "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.".
-                </p>
+              </p>
             </Row>
            </Col>
-           <Col xs={12} sm={12} md={6} lg={4} xl={4}>
+
+           <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-                    
-                    <img  className="my-4" style={{ height: '30%', width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" fluid/>
-                    <h6>Rollin Noko, Gérant, Light Multi Services</h6>
-            
-                
+            <img  className="my-4" style={{ height: '30%', width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" fluid/>
+            <h6>Rollin Noko, Gérant, Light Multi Services</h6>
             </Row>
+
             <Row>
-                <p className='aboutParagraph py-4 '>
+              <p className='aboutParagraph py-4 '>
                 "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.".
-                </p>
+              </p>
             </Row>
            </Col>
-           <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
+
+           <Container className="mt-4" style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
             <Button className="btn btn-success mx-0">Me contacter</Button>
         </Container>
         </Row>

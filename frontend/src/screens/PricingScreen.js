@@ -5,8 +5,8 @@ const PricingScreen = () => {
   return (
     <Container >
       <h1>Tarifs & Plans</h1>
-      <Col className="my-3" style={{textAlign: 'center'}}>
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
+      <Col className="my-3" style={{textAlign: 'center', border: '1px solid red'}}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={4} xl={4}>
           <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
             <Card.Header style={{backgroundColor: '#eefff4'}}><h4>Economique</h4></Card.Header>
             <Card.Body>
@@ -37,7 +37,7 @@ const PricingScreen = () => {
           </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={4} xl={4}>
           <Card className="mt-4 mx-auto" style={{ width: '18rem' }}>
             <Card.Header className="py-5" style={{backgroundColor: '#eefff4'}}><h4>Prenium</h4></Card.Header>
             <Card.Body>
@@ -69,7 +69,7 @@ const PricingScreen = () => {
           </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={4} xl={4}>
           <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
             <Card.Header style={{backgroundColor: '#eefff4'}}>
               <h4>Elite</h4>

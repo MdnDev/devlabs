@@ -13,8 +13,8 @@ const BlogScreen = () => {
       <h1>Blog</h1>
       <SlideNav />
       <Col className="my-3" style={{textAlign: 'center'}}>
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/blogpost-challenge.jpg"/>
             <Card.Title>les galères d'un développeur autodidacte</Card.Title>
@@ -28,8 +28,8 @@ const BlogScreen = () => {
         </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/github.jpg"/>
             <Card.Title>Pourquoi je préfère Github à Stack Overflow</Card.Title>
@@ -43,8 +43,8 @@ const BlogScreen = () => {
         </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/blogpost-react.jpg"/>
             <Card.Title>Qu'est ce que React ?</Card.Title>
@@ -58,8 +58,8 @@ const BlogScreen = () => {
         </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/blogpost-react-router-v6.jpeg"/>
             <Card.Title>Changements majeur sur React Router V6</Card.Title>
@@ -73,8 +73,8 @@ const BlogScreen = () => {
         </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/blogpost-timer.jpg"/>
             <Card.Title>La méthode Pomodoro, Utile ?</Card.Title>
@@ -88,8 +88,8 @@ const BlogScreen = () => {
         </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/blogpost-timer.jpg"/>
             <Card.Title>La méthode Pomodoro, Utile ?</Card.Title>
@@ -103,8 +103,8 @@ const BlogScreen = () => {
         </Card>
         </Col>
 
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={12} lg={3} xl={3}>
-        <Card className="mt-5 mx-auto" style={{ width: '18rem' }}>
+        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>
           <Card.Img variant="top" src="../../images/blogpost-timer.jpg"/>
             <Card.Title>La méthode Pomodoro, Utile ?</Card.Title>
