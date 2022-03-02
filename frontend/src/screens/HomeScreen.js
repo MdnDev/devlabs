@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Col, Row, Image, Card, Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import HomeCarousel from '../components/HomeCarousel'
 
 
@@ -16,7 +17,7 @@ const HomeScreen = () => {
             
         </Row>
         <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
-            <Button className="btn btn-success mx-0">Me contacter</Button>
+            <Link to="/contact"><Button className="btn btn-success mx-0" >Me contacter</Button></Link>
         </Container>
       </Row>
 
@@ -31,8 +32,8 @@ const HomeScreen = () => {
         {/* END OF SECOND SECTION */}
 
         {/* SERVICES SECTION */}
-        <Col className="my-3" style={{textAlign: 'center', border: '1px solid red'}}>
-          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+        <Col className="my-3" style={{textAlign: 'center'}}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={6} xl={4}>
             <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/collab.svg' />
               <Card.Body>
@@ -41,12 +42,12 @@ const HomeScreen = () => {
                   Du début à la fin, je travaille avec vous.
                   Mon but est de comprendre tout de votre activité, votre mission
                   </Card.Text>
-                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                  
               </Card.Body>
             </Card>
           </Col>
 
-          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={6} xl={4}>
             <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/personalsettings.svg' />
               <Card.Body>
@@ -54,12 +55,12 @@ const HomeScreen = () => {
                   <Card.Text>
                   Je prends en compte toutes vos envie et idées. Je vous guide ensuite pour arriver à un résultat optimal pour vous et vos clients.
                   </Card.Text>
-                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                  
               </Card.Body>
             </Card>
           </Col>
 
-          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={6} xl={4}>
             <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/onlinepayments.svg' />
               <Card.Body>
@@ -68,12 +69,12 @@ const HomeScreen = () => {
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
                   </Card.Text>
-                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Go somewhere</Button>
+                  
               </Card.Body>
             </Card>
           </Col>
 
-          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
+          <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={6} xl={4}>
             <Card className="mt-5 mx-auto" style={{ width: '20rem'}}>
               <Card.Img variant="top" src='../../images/pride.svg' />
               <Card.Body>
@@ -81,14 +82,15 @@ const HomeScreen = () => {
                   <Card.Text>
                    Mon but est de vous développer un site que vous prendrez plaisir a présenter, ainsi qu'a utliser comme outil pour votre activité.
                   </Card.Text>
-                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}} >Go somewhere</Button>
               </Card.Body>
             </Card>
           </Col>
         </Col>
 
         <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
-            <Button className="btn btn-success mx-0 my-4">Voir les services</Button>
+            <Link to='/services'>
+              <Button className="btn btn-success mx-0 my-4">Voir les services</Button>
+            </Link>
         </Container>
         {/* END OF SERVICES SECTION */}
 
@@ -114,7 +116,7 @@ const HomeScreen = () => {
            </Col>
            <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-              <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/Laurie2.jpg" alt="alt" fluid/>
+              <img  className="my-4" style={{ width: '30%', borderRadius: '50%'}} src="../../images/Laurie2.jpg" alt="alt" fluid/>
               <h6 >Laurie Doinel, Gérante de glacerie</h6>
             </Row>
 
@@ -127,7 +129,7 @@ const HomeScreen = () => {
 
            <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-            <img  className="my-4" style={{ height: '30%', width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" fluid/>
+            <img  className="my-4" style={{ width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" fluid/>
             <h6>Rollin Noko, Gérant, Light Multi Services</h6>
             </Row>
 
@@ -138,8 +140,8 @@ const HomeScreen = () => {
             </Row>
            </Col>
 
-           <Container className="mt-4" style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
-            <Button className="btn btn-success mx-0">Me contacter</Button>
+           <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
+            <Link to="/contact"><Button className="btn btn-success mx-0 my-5" >Me contacter</Button></Link>
         </Container>
         </Row>
 

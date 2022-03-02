@@ -161,18 +161,7 @@ const ServiceScreen = () => {
               </Card>
             </Col>
 
-            <Col xs={12} sm={12} md={6} lg={5} xl={4} style={{ display: 'inline-block' }}>
-              <Card className="mt-4 mx-auto" style={{ width: '20rem' }}>
-                <Card.Img variant="top" src='../../images/media.png' className="mx-auto" style={{ width: '8rem' }} />
-                <Card.Body>
-                    <h3>Service SEO</h3>
-                    <Card.Text>
-                    Je gère vos divers comptes professionels pour accroître l'engagement avec clients et potentiels clients.
-                    </Card.Text>
-                    <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>En savoir plus</Button>
-                </Card.Body>
-              </Card>
-            </Col>
+            
         </Col>
           </Row>
         {/* END OF THIRD SECTION */}
