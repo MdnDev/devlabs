@@ -7,7 +7,7 @@ import Blogpost from '../models/blogpostModel.js'
 
 const getBlogposts = asyncHandler(async(req, res) => {
     const title = req.query.title || '';
-    const category = req.query.category || '',
+    const category = req.query.category || '';
     const titleFilter = title ? { title: { $regex: title, $options: 'i' } } : {};
     const categoryFilter = category ? { category } : {};
     const blogposts = await Blogpost.find({
@@ -85,7 +85,7 @@ const deleteBlogpost = asyncHandler(async(req, res) => {
   // @route   PUT /api/blogposts/:id
   // @access  Private/Admin
 
-  const updateBlogpost = asyncHandler(async(res, res) => {
+  const updateBlogpost = asyncHandler(async (req, res) => {
       const {
           user,
           title,
@@ -119,7 +119,7 @@ const deleteBlogpost = asyncHandler(async(req, res) => {
 
   })
 
-  const getCategories = asyncHandler(async(res, res) => {
+  const getCategories = asyncHandler(async(req, res) => {
       const categories = await Blogpost.find().distinct('category')
       res.send(categories)
   })
