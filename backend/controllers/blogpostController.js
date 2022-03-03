@@ -87,7 +87,6 @@ const deleteBlogpost = asyncHandler(async(req, res) => {
 
   const updateBlogpost = asyncHandler(async (req, res) => {
       const {
-          user,
           title,
           author,
           date,

@@ -11,6 +11,7 @@ import Portfolio from "./screens/Portfolio";
 import LoginScreen from "./screens/LoginScreen";
 import ArticleScreen from "./screens/ArticleScreen";
 import BlogListScreen from "./screens/BlogListScreen";
+import BlogEditScreen from "./screens/BlogEditScreen";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path='/blog' element={<BlogScreen />} />
             <Route path='/article' element={<ArticleScreen />} />
             <Route path='/bloglist' element={<BlogListScreen />} />
+            <Route path='/blogedit' element={<BlogEditScreen />} />
           </Routes>
         </Container>
       </main>

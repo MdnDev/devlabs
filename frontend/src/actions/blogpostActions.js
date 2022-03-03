@@ -66,7 +66,7 @@ export const listBlogpostDetails = (id) => async (dispatch) => {
 
         dispatch({ 
             type: BLOGPOST_DETAILS_SUCCESS,
-            payload: data
+            payload: data,
         })
     } catch (error) {
         dispatch({
