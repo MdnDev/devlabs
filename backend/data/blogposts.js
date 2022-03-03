@@ -16,9 +16,9 @@ const blogposts = [
 
         images: {
             "image1": "someimage.jpg",
-            "image1": "someimage.jpg",
-            "image1": "someimage.jpg",
-            "image1": "someimage.jpg"
+            "image2": "someimage.jpg",
+            "image3": "someimage.jpg",
+            "image4": "someimage.jpg"
         }
 
         
@@ -42,9 +42,9 @@ const blogposts = [
 
         images: {
             image1: "someimage.jpg",
-            image1: "someimage.jpg",
-            image1: "someimage.jpg",
-            image1: "someimage.jpg"
+            image2: "someimage.jpg",
+            image3: "someimage.jpg",
+            image4: "someimage.jpg"
         }
 
         
@@ -68,9 +68,9 @@ const blogposts = [
 
         images: {
             image1: "someimage.jpg",
-            image1: "someimage.jpg",
-            image1: "someimage.jpg",
-            image1: "someimage.jpg"
+            image2: "someimage.jpg",
+            image3: "someimage.jpg",
+            image4: "someimage.jpg"
         }
 
         
