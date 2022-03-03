@@ -18,7 +18,7 @@ import {
     BLOGPOST_CATEGORY_LIST_REQUEST,
     BLOGPOST_CATEGORY_LIST_SUCCESS,
     BLOGPOST_CATEGORY_LIST_FAIL  
-} from '../constants/productConstants'
+} from '../constants/blogpostConstants'
 
 import { logout } from './userActions'
 
@@ -76,7 +76,7 @@ export const listBlogpostDetails = (id) => async (dispatch) => {
     }
 }
 
-export const deleteBlogpost = (id) => async (dispatch) => {
+export const deleteBlogpost = (id) => async (dispatch, getState) => {
     try {
         dispatch({
             type: BLOGPOST_DELETE_REQUEST

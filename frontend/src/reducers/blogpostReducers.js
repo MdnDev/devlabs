@@ -18,9 +18,9 @@ import {
     BLOGPOST_CATEGORY_LIST_SUCCESS,
     BLOGPOST_CATEGORY_LIST_FAIL,
 
-} from '../constants/productConstants';
+} from '../constants/blogpostConstants';
 
-export const blogpostListReducer = (state = { blogpost: [] }, action) => {
+export const blogpostListReducer = (state = { blogposts: [] }, action) => {
     switch (action.type) {
         case BLOGPOST_LIST_REQUEST:
             return { loading: true, blogposts: [] }
