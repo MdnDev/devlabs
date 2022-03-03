@@ -22,6 +22,11 @@ const blogpostSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    
+    category: { 
+        type: String, 
+        required: true 
+    },
 
     bannerImage: {
         type: String,
