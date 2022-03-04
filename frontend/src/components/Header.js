@@ -34,7 +34,7 @@ const Header = () => {
                   <NavLink className="Nav_link" to="/portfolio">Portfolio</NavLink>
                   <NavLink className="Nav_link" to="/pricing">Tarifs</NavLink>
                   <NavLink className="Nav_link" to="/contact">Contact</NavLink>
-                  <NavLink className="Nav_link" to="/blog">Blog</NavLink>
+                  <NavLink className="Nav_link" to="/blogposts">Blog</NavLink>
                   {userInfo ? (
                         <NavDropdown title={userInfo.name} id='username'>
                             <Link className="Nav_link" to="/profile" style={{ display: "block"}}>

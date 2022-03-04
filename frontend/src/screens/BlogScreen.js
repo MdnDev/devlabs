@@ -9,6 +9,7 @@ import { listBlogpostCategories, listBlogposts } from '../actions/blogpostAction
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { Button } from 'react-bootstrap'
+import Blogpost from '../components/Blogpost';
 
 const BlogScreen = () => {
   const [show, setShow] = useState(false);
@@ -51,6 +52,15 @@ const BlogScreen = () => {
       <SlideNav />
 
       <Col className="my-3" style={{textAlign: 'center'}}>
+        {loading ? ( <Loader/> ) : error ? ( <Message variant="danger">{error}</Message> ) : (
+                            <>
+                            {blogposts.map(blogpost => (
+                                <Col key={blogpost._id} style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4} >
+                                <Blogpost blogpost={blogpost} style={{ width: '100%'}}/>
+                                </Col>
+                            ))}
+                            </>
+                            )}
         <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
         <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
           <Card.Body>

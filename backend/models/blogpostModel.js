@@ -25,7 +25,7 @@ const blogpostSchema = mongoose.Schema({
 
     preview: {
         type: String,
-        required: true
+        required: false
     },
     
     category: { 
@@ -33,10 +33,6 @@ const blogpostSchema = mongoose.Schema({
         required: true 
     },
 
-    bannerImage: {
-        type: String,
-        required: false
-    },
 
     paragraph1: {
         type: String,
@@ -53,12 +49,7 @@ const blogpostSchema = mongoose.Schema({
         required: false
     },
     
-    image1: {
-        type: String,
-        required: false
-    },
-
-    image2: {
+    image: {
         type: String,
         required: false
     },

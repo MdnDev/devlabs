@@ -9,9 +9,10 @@ import ContactScreen from "./screens/ContactScreen";
 import BlogScreen from "./screens/BlogScreen";
 import Portfolio from "./screens/Portfolio";
 import LoginScreen from "./screens/LoginScreen";
-import ArticleScreen from "./screens/ArticleScreen";
+import BlogpostScreen from "./screens/BlogpostScreen";
 import BlogListScreen from "./screens/BlogListScreen";
 import BlogEditScreen from "./screens/BlogEditScreen";
+import ProfileScreen from './screens/ProfileScreen';
 
 
 function App() {
@@ -25,10 +26,11 @@ function App() {
             <Route path='/services' element={<ServiceScreen />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/login' element={<LoginScreen />} />
+            <Route path="/profile" element={<ProfileScreen/>}/>
             <Route path='/pricing' element={<PricingScreen />} />
             <Route path='/contact' element={<ContactScreen />} />
-            <Route path='/blog' element={<BlogScreen />} />
-            <Route path='/article' element={<ArticleScreen />} />
+            <Route path='/blogposts' element={<BlogScreen />} />
+            <Route path='/blogposts/:id' element={<BlogpostScreen />} />
             <Route path='/admin/bloglist' element={<BlogListScreen />} />
             <Route path='/admin/blogpost/:id/edit' element={<BlogEditScreen />} />
           </Routes>

@@ -22,11 +22,11 @@ const BlogEditScreen = () => {
     const [title, setTitle] = useState('')
     const [image, setImage] = useState('')
     const [author, setAuthor] = useState('')
+    const [preview, setPreview] = useState('')
     const [category, setCategory] = useState('')
     const [paragraph1, setParagraph1] = useState('')
     const [paragraph2, setParagraph2] = useState('')
     const [paragraph3, setParagraph3] = useState('')
-    const [bannerImage, setBannerImage] = useState('')
     const [date, setDate] = useState('')
     
 
@@ -59,11 +59,11 @@ const BlogEditScreen = () => {
             setTitle(blogpost.title)
             setImage(blogpost.image)
             setAuthor(blogpost.author)
+            setPreview(blogpost.preview)
             setCategory(blogpost.category)
             setParagraph1(blogpost.paragraph1)
             setParagraph2(blogpost.paragraph2)
             setParagraph3(blogpost.paragraph3)
-            setBannerImage(blogpost.bannerImage)
             setDate(blogpost.date)
             
           }
@@ -104,11 +104,11 @@ const BlogEditScreen = () => {
             title,
             image,
             author,
+            preview,
             category,
             paragraph1,
             paragraph2,
             paragraph3,
-            bannerImage,
             date
             
           })
@@ -157,22 +157,6 @@ const BlogEditScreen = () => {
               {uploading && <Loader />}
             </Form.Group>
 
-            <Form.Group controlId='bannerImage'>
-              <Form.Label>Image Bannière</Form.Label>
-              <Form.Control
-                type='text'
-                placeholder='Enter image url'
-                value={bannerImage}
-                onChange={(e) => setBannerImage(e.target.value)}
-              ></Form.Control>
-              <input
-                type="file"
-                id='image-file'
-                label='Choose File'
-                onChange={uploadFileHandler}
-              ></input>
-              {uploading && <Loader />}
-            </Form.Group>
 
             <Form.Group controlId='author'>
               <Form.Label>Auteur</Form.Label>
@@ -201,6 +185,16 @@ const BlogEditScreen = () => {
                 placeholder='Enter category'
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
+              ></Form.Control>
+            </Form.Group>
+
+            <Form.Group controlId='preview'>
+              <Form.Label>Preview</Form.Label>
+              <Form.Control
+                type='text'
+                placeholder='Enter preview'
+                value={preview}
+                onChange={(e) => setPreview(e.target.value)}
               ></Form.Control>
             </Form.Group>
 
