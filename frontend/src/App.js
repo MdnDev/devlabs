@@ -29,8 +29,8 @@ function App() {
             <Route path='/contact' element={<ContactScreen />} />
             <Route path='/blog' element={<BlogScreen />} />
             <Route path='/article' element={<ArticleScreen />} />
-            <Route path='/bloglist' element={<BlogListScreen />} />
-            <Route path='/blogedit' element={<BlogEditScreen />} />
+            <Route path='/admin/bloglist' element={<BlogListScreen />} />
+            <Route path='/admin/blogpost/:id/edit' element={<BlogEditScreen />} />
           </Routes>
         </Container>
       </main>

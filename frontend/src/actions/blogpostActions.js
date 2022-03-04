@@ -22,11 +22,11 @@ import {
 
 import { logout } from './userActions'
 
-export const listBlogpost = ({ title = '', category = '' }) => async (dispatch) => {
+export const listBlogposts = ({ title = '', category = '' }) => async (dispatch) => {
     try {
         dispatch({ type: BLOGPOST_LIST_REQUEST })
 
-        const { data } = await axios.get(`/api/products?title=${title}&category=${category}`)
+        const { data } = await axios.get(`/api/blogposts?title=${title}&category=${category}`)
 
         dispatch({
             type: BLOGPOST_LIST_SUCCESS,

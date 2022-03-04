@@ -23,7 +23,9 @@ const BlogEditScreen = () => {
     const [image, setImage] = useState('')
     const [author, setAuthor] = useState('')
     const [category, setCategory] = useState('')
-    const [text, setText] = useState('')
+    const [paragraph1, setParagraph1] = useState('')
+    const [paragraph2, setParagraph2] = useState('')
+    const [paragraph3, setParagraph3] = useState('')
     const [bannerImage, setBannerImage] = useState('')
     const [date, setDate] = useState('')
     
@@ -58,7 +60,9 @@ const BlogEditScreen = () => {
             setImage(blogpost.image)
             setAuthor(blogpost.author)
             setCategory(blogpost.category)
-            setText(blogpost.text)
+            setParagraph1(blogpost.paragraph1)
+            setParagraph2(blogpost.paragraph2)
+            setParagraph3(blogpost.paragraph3)
             setBannerImage(blogpost.bannerImage)
             setDate(blogpost.date)
             
@@ -101,7 +105,9 @@ const BlogEditScreen = () => {
             image,
             author,
             category,
-            text,
+            paragraph1,
+            paragraph2,
+            paragraph3,
             bannerImage,
             date
             
@@ -199,14 +205,49 @@ const BlogEditScreen = () => {
             </Form.Group>
 
             <Form.Group className="mb-4" controlId='text'>
-              <Form.Label>Texte</Form.Label>
-              <Form.Control
-                type='text'
-                placeholder='Entrer le texte'
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-              ></Form.Control>
+              <label htmlFor="Message" className="my-2">
+              Paragraph 1
+              </label>
+              <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              name="message"
+              value={paragraph1}
+              onChange={(e) => setParagraph1(e.target.value)}
+              />
             </Form.Group>
+
+            <Form.Group className="mb-4" controlId='text'>
+              <label htmlFor="Message" className="my-2">
+              Paragraph 2
+              </label>
+              <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              name="message"
+              value={paragraph2}
+              onChange={(e) => setParagraph2(e.target.value)}
+              />
+            </Form.Group>
+            
+            <Form.Group className="mb-4" controlId='text'>
+              <label htmlFor="Message" className="my-2">
+              Paragraph 3
+              </label>
+              <textarea
+              className="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              name="message"
+              value={paragraph3}
+              onChange={(e) => setParagraph3(e.target.value)}
+              />
+            </Form.Group>
+
+            
+            
            
             <Button className="my-3" type='submit' variant='primary'>
               Valider

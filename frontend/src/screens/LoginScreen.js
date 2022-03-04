@@ -9,7 +9,7 @@ import { login } from '../actions/userActions'
 
 
 
-const LoginScreen = ({ }) => {
+const LoginScreen = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
@@ -60,9 +60,9 @@ const LoginScreen = ({ }) => {
         </Form.Control>
       </Form.Group>
 
-      <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
-            <Button className="btn btn-success mx-0 my-5" type="submit">Me contacter</Button>
-        </Container>
+      <Button type='submit' variant='success'>
+        Se connecter
+      </Button>
 
     </Form>
   </FormContainer>

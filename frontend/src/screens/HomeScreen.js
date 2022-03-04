@@ -3,7 +3,6 @@ import { Button, Col, Row, Image, Card, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import HomeCarousel from '../components/HomeCarousel'
 
-
 const HomeScreen = () => {
   return (
 
@@ -104,7 +103,7 @@ const HomeScreen = () => {
           <Row className="my-3">
            <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-              <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/JN.png" alt="alt" fluid/>
+              <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/JN.png" alt="alt"/>
               <h6 >Jean-Noël Vireeye, Photographe & Réalisteur</h6>
             </Row>
 
@@ -116,7 +115,7 @@ const HomeScreen = () => {
            </Col>
            <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-              <img  className="my-4" style={{ width: '30%', borderRadius: '50%'}} src="../../images/Laurie2.jpg" alt="alt" fluid/>
+              <img  className="my-4" style={{ width: '30%', borderRadius: '50%'}} src="../../images/Laurie2.jpg" alt="alt"/>
               <h6 >Laurie Doinel, Gérante de glacerie</h6>
             </Row>
 
@@ -129,7 +128,7 @@ const HomeScreen = () => {
 
            <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
            <Row>
-            <img  className="my-4" style={{ width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" fluid/>
+            <img  className="my-4" style={{ width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" />
             <h6>Rollin Noko, Gérant, Light Multi Services</h6>
             </Row>
 

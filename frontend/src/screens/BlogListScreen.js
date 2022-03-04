@@ -6,7 +6,7 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import Paginate from '../components/Paginate'
 import {
-  listBlogpost,
+  listBlogposts,
   deleteBlogpost,
   createBlogpost,
 } from '../actions/blogpostActions'
@@ -50,7 +50,7 @@ const BlogListScreen = () => {
       if (successCreate) {
         navigate(`/admin/blogpost/${createdBlogpost._id}/edit`)
       } else {
-        dispatch(listBlogpost('', { pageNumber }))
+        dispatch(listBlogposts('', { pageNumber }))
       }
     }, [
       dispatch,
@@ -79,7 +79,7 @@ const BlogListScreen = () => {
             <h1>Articles</h1>
           </Col>
           <Col className='text-right'>
-            <Button className='my-3' onClick={createBlogpostHandler}>
+            <Button className='my-3 btn-success' onClick={createBlogpostHandler}>
               <i className='fas fa-plus'></i> Poster un article
             </Button>
           </Col>
@@ -97,20 +97,20 @@ const BlogListScreen = () => {
             <Table striped bordered hover responsive className='table-sm'>
               <thead>
                 <tr>
-                  <th>IDENTIFIANT</th>
-                  <th>NOM</th>
+                  <th>ID</th>
+                  <th>Titre</th>
                   <th>CATEGORIE</th>
-                  <th>MARQUE</th>
-                  <th></th>
+                  <th>Auteur</th>
+                  <th>Modifier/Supprimer</th>
                 </tr>
               </thead>
               <tbody>
                 {blogposts.map((blogpost) => (
                   <tr key={blogpost._id}>
                     <td>{blogpost._id}</td>
-                    <td>{blogpost.name}</td>
+                    <td>{blogpost.title}</td>
                     <td>{blogpost.category}</td>
-                    <td>{blogpost.brand}</td>
+                    <td>{blogpost.author}</td>
                     <td>
                       <a href={`/admin/blogpost/${blogpost._id}/edit`}>
                         <Button variant='light' className='btn-sm'>

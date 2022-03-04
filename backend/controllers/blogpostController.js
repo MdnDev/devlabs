@@ -58,22 +58,14 @@ const deleteBlogpost = asyncHandler(async(req, res) => {
         title: 'sample title',
         date: 'sample date',
         author: 'sample author',
+        preview: 'sample preview',
         category: 'sample category',
         bannerImage: '/images/sample.jpg',
-        text: {
-            paragraph1: 'sample paragraph',
-            paragraph2: 'sample paragraph',
-            paragraph3: 'sample paragraph',
-            paragraph4: 'sample paragraph',
-            paragraph5: 'sample paragraph',
-        },
-        images: {
-            image1: '/images/sample.jpg',
-            image2: '',
-            image3: '',
-            image4: '',
-            image5: '',
-        }
+        paragraph1: 'sample paragraph',
+        paragraph2: 'sample paragraph',
+        paragraph3: 'sample paragraph',
+        image1: '/images/sample.jpg',
+        image2: '',
 
       })
 
@@ -89,6 +81,7 @@ const deleteBlogpost = asyncHandler(async(req, res) => {
       const {
           title,
           author,
+          preview,
           date,
           bannerImage,
           category,
@@ -102,7 +95,8 @@ const deleteBlogpost = asyncHandler(async(req, res) => {
       if (blogpost) {
         blogpost.title = title
         blogpost.author = author
-        blogpost.dtae = date
+        blogpost.preview = preview
+        blogpost.date = date
         blogpost.bannerImage = bannerImage
         blogpost.category = category
         blogpost.text = text

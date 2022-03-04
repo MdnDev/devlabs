@@ -22,6 +22,11 @@ const blogpostSchema = mongoose.Schema({
         type: String,
         required: true
     },
+
+    preview: {
+        type: String,
+        required: true
+    },
     
     category: { 
         type: String, 
@@ -33,59 +38,31 @@ const blogpostSchema = mongoose.Schema({
         required: false
     },
 
-    text: {
-        paragraph1: {
-            type: String,
-            required: true
-        },
-
-        paragraph2: {
-            type: String,
-            required: true
-        },
-
-        paragraph3: {
-            type: String,
-            required: true
-        },
-
-        paragraph4: {
-            type: String,
-            required: true
-        },
-
-        paragraph5: {
-            type: String,
-            required: true
-        },
+    paragraph1: {
+        type: String,
+        required: true
     },
 
-    images: {
-        image1: {
-            type: String,
-            required: false
-        },
+    paragraph2: {
+        type: String,
+        required: false
+    },
 
-        image2: {
-            type: String,
-            required: false
-        },
+    paragraph3: {
+        type: String,
+        required: false
+    },
+    
+    image1: {
+        type: String,
+        required: false
+    },
 
-        image3: {
-            type: String,
-            required: false
-        },
+    image2: {
+        type: String,
+        required: false
+    },
 
-        image4: {
-            type: String,
-            required: false
-        },
-
-        image5: {
-            type: String,
-            required: false
-        }
-    }
 }, {
     timestamps: true,
     }
