@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Image, Form, Button, Row, Col, Badge } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import Message from '../components/Message';
 
 const ContactScreen = () => {
@@ -11,7 +12,7 @@ const ContactScreen = () => {
                   <Image className="mx-auto" src="../../images/logo.png" style={{width: '25rem', borderRadius: '50%'}}/>
                 </Row>
                 <Row className="mt-4">
-                  <Button style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Github</Button>
+                  <Button href="https://github.com/MdnDev" target="_blank" style={{backgroundColor: '#1d804d', fontFamily: 'Russo One, serif'}}>Github</Button>
                   </Row>
               </Col>
               <Col xs={12} sm={12} md={12} lg={8} xl={8}>
