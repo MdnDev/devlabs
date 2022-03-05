@@ -12,8 +12,11 @@ const Portfolio = () => {
                     <Card.Body>
                         <Card.Title><h4>Jean-Noël Vireeye</h4></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Une application Web développée afin de permettre à un photographe professionel de promouvoir son travail.
+                        <br></br>
+                        Un système de paiement a été implémenté à l'application, ainsi qu'un système d'authentification & espace administrateur.
+                        <br></br>
+                        Les technologies MongoDB, Express, React et Node ont été utilisées pour cette application.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -25,8 +28,11 @@ const Portfolio = () => {
                     <Card.Body>
                         <Card.Title><h4>Light Multi Services</h4></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Une application Web développée afin de promouvoir le matériel éléctrique d'une entreprise de location.
+                        <br></br>
+                        Un système d'authentification & espace administrateur ont été implémentés à l'application.
+                        <br></br>
+                        Les technologies MongoDB, Express, React et Node ont été utilisées pour cette application.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -38,8 +44,11 @@ const Portfolio = () => {
                     <Card.Body>
                         <Card.Title><h4>Wilfried Maudon</h4></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Ceci est mon premier site, crée pour promouvoir mes premiers projets.
+                        <br></br>
+                        Ce site présente mes compétences en tant que développeur fullstack et permet a l'utilisateur de me contacter.
+                        <br></br>
+                        HTML, CSS & Javascript ont été utilisés pour ce site.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -51,8 +60,10 @@ const Portfolio = () => {
                     <Card.Body>
                         <Card.Title><h4>Royaume Sorbet</h4></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Ce site est un projet personnel montrant mes compétences avec la bibliothèque Bootstrap 5, HTML & CSS.
+                        Ce site (fictif) propose à l'utilisateur de d'explorer les differents sorbets proposés.
+                        <br></br>
+                        Une carte à été ajoutée à la page contact afin de donner plus d'informations à l'utilisateur.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -64,8 +75,11 @@ const Portfolio = () => {
                     <Card.Body>
                         <Card.Title><h4>E-commerce guitares</h4></Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        Ceci est un projet personnel crée a partir du stack MERN.
+                        <br></br>
+                        Une base de donnée a été implémentée via MongoDB & Express, l'interface via React.js.
+                        <br></br>
+                        Le logiciel propose à l'utilisateur de choisir différentes guitare, et compléter sa commande.
                         </Card.Text>
                     </Card.Body>
                 </Card>
