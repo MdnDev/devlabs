@@ -49,7 +49,6 @@ const BlogScreen = () => {
   return (
     <Container>
       <h1>Blog</h1>
-      <SlideNav />
 
       <Col className="my-3" style={{textAlign: 'center'}}>
         {loading ? ( <Loader/> ) : error ? ( <Message variant="danger">{error}</Message> ) : (
@@ -61,110 +60,7 @@ const BlogScreen = () => {
                             ))}
                             </>
                             )}
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/blogpost-challenge.jpg"/>
-            <Card.Title>les galères d'un développeur autodidacte</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Link to='/article'>Lire l'article</Link>
-          </Card.Body>
-        </Card>
-        </Col>
-
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/github.jpg"/>
-            <Card.Title>Pourquoi je préfère Github à Stack Overflow</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
-          </Card.Body>
-        </Card>
-        </Col>
-
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/blogpost-react.jpg"/>
-            <Card.Title>Qu'est ce que React ?</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
-          </Card.Body>
-        </Card>
-        </Col>
-
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/blogpost-react-router-v6.jpeg"/>
-            <Card.Title>Changements majeur sur React Router V6</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
-          </Card.Body>
-        </Card>
-        </Col>
-
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/blogpost-timer.jpg"/>
-            <Card.Title>La méthode Pomodoro, Utile ?</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
-          </Card.Body>
-        </Card>
-        </Col>
-
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/blogpost-timer.jpg"/>
-            <Card.Title>La méthode Pomodoro, Utile ?</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
-          </Card.Body>
-        </Card>
-        </Col>
-
-        <Col style={{ display: 'inline-block' }} xs={12} sm={12} md={6} lg={4} xl={4}>
-        <Card className="mt-5 mx-auto" style={{ width: '20rem' }}>
-          <Card.Body>
-          <Card.Img variant="top" src="../../images/blogpost-timer.jpg"/>
-            <Card.Title>La méthode Pomodoro, Utile ?</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Wilfried Maudon</Card.Subtitle>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-            </Card.Text>
-            <Card.Link href="#">Lire l'article</Card.Link>
-          </Card.Body>
-        </Card>
-        </Col>
+        
       </Col>
     </Container>
   )

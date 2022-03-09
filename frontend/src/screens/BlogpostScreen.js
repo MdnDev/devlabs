@@ -34,17 +34,19 @@ const BlogpostScreen = () => {
     const [open, setOpen] = useState(false);
   return (
     <Container style={{textAlign: 'center'}}>
-      <Link to='/blogposts' className='btn btn-light my-3'>
+        <Col xs={12} sm={12} md={12} lg={9} xl={9} style={{display: 'inline-block', textAlign: 'justify'}}>
+        <Link to='/blogposts' className='btn btn-light my-3'>
         Retour
       </Link>
-        <Col xs={12} sm={12} md={12} lg={9} xl={9} style={{border: '2px solid red', display: 'inline-block', textAlign: 'justify'}}>
           {loading ? ( <Loader />) : error ? ( <Message variant="danger">{error}</Message> ) : (
             <div>
+              <div>
               <Image src={blogpost.image} alt={blogpost.title} fluid/>
+              </div>
               <strong><h1>{blogpost.title}</h1></strong>
           <br></br>
-          <h4>Le {blogpost.date}, par {blogpost.author}</h4>
-          <section>
+          <h4 className="py-4">Le {blogpost.date}, par {blogpost.author}</h4>
+          <section className="py-5">
               <p>
               {blogpost.paragraph1}
               </p>
@@ -66,7 +68,6 @@ const BlogpostScreen = () => {
           )}
           
         </Col>
-        
     </Container>
   )
 }

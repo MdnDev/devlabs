@@ -80,57 +80,9 @@ const HomeScreen = () => {
         {/* END OF SERVICES SECTION */}
 
         {/* TESTIMONIALS SECTION */}
-        <Row className="py-5" style={{ backgroundColor: '#eefff4'}}>
-          <Row xs="12" sm="12" md="12" lg="12" xl="12">
-            <h1>Ils m'ont fait confiance</h1>
-            <br/>
-          </Row>
+       
 
-          <Row className="my-3">
-           <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
-           <Row>
-              <img  className="my-4" style={{ height: '30%', width: '30%', borderRadius: '50%', margin: '10px'}} src="../../images/JN.png" alt="alt"/>
-              <h6 >Jean-Noël Vireeye, Photographe & Réalisteur</h6>
-            </Row>
-
-            <Row>
-                <p className='aboutParagraph py-4 '>
-                "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.".
-                </p>
-            </Row>
-           </Col>
-           <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
-           <Row>
-              <img  className="my-4" style={{ width: '30%', borderRadius: '50%'}} src="../../images/Laurie2.jpg" alt="alt"/>
-              <h6 >Laurie Doinel, Gérante de glacerie</h6>
-            </Row>
-
-            <Row>
-              <p className='aboutParagraph py-4 '>
-                "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.".
-              </p>
-            </Row>
-           </Col>
-
-           <Col xs={12} sm={12} md={6} lg={4} xl={4} style={{borderBottom: '1px solid grey', borderTop: '1px solid grey'}}>
-           <Row>
-            <img  className="my-4" style={{ width: '48%', borderRadius: '50%', margin: '10px'}} src="../../images/LMS.png" alt="alt" />
-            <h6>Rollin Noko, Gérant, Light Multi Services</h6>
-            </Row>
-
-            <Row>
-              <p className='aboutParagraph py-4 '>
-                "Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C.".
-              </p>
-            </Row>
-           </Col>
-
-           <Container style={{textAlign: 'center'}} xs={12} sm={12} md={12} lg={6} xl={6}>
-            <Link to="/contact"><Button className="btn btn-success mx-0 my-5" >Me contacter</Button></Link>
-        </Container>
-        </Row>
-
-        </Row>
+        
         {/* END OF TESTIMONIALS SECTION */}
 
 

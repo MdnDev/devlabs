@@ -27,7 +27,6 @@ function App() {
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/login' element={<LoginScreen />} />
             <Route path="/profile" element={<ProfileScreen/>}/>
-            <Route path='/pricing' element={<PricingScreen />} />
             <Route path='/contact' element={<ContactScreen />} />
             <Route path='/blogposts' element={<BlogScreen />} />
             <Route path='/blogposts/:id' element={<BlogpostScreen />} />
